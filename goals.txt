@@ -1,0 +1,7 @@
+This is a goals sheet to track my progress, and keep everything in one document.
+
+Tuesday 29/9 - Morning Session
+
+Goal: Describe some basic OO principles like encapsulation, SRP
+Achieved when: I am able to explain encapsulation, SRP, etc. confidently to my peers
+Correct when: They can verify what I've said was correct. 

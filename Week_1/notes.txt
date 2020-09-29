@@ -1,0 +1,62 @@
+Object Oriented Programming Principles (4)
+
+  1) Data Abstraction
+    We want to model our data to look like a real life equivalent, ex: Ship
+      - Ships are able to accelerate and move (methods) whilst they also have
+        positional and speed constants at initialization
+        class Ship
+          ACCELERATION = 1
+          def initialize
+            @position = { x: 0, y: 0 }
+            @speed = { x: 0, y: 0 }
+          end
+          def acceleration(direction)
+            # ADDITIONAL CODE
+          end
+          def move
+            # ADDITIONAL CODE
+          end
+        end
+      - Good way to do this is in CLASSES, representing some structured data
+  2) Encapsulation
+    Principle of making sure that all the details of a particular object that
+    need to be used outside the class are made available, whilst unnecessary
+    details of the object are hidden
+      - @position and @speed don't need to be known outside the class because
+      they are only used by methods within the class (acceleration and move)
+      - This principle is important because it allows one to alter the class
+      definition without affecting any other part of the program that uses that
+      class
+  3) Inheritance
+    Principle allows the use of past classes to make a heirarchy or taxonomy of
+    classes. For example, a fighter ship will have all the same properties as a
+    ship, but it will also include the option to fire a missile. With
+    inheritance you are able to take all the initial details, methods etc. from
+    the parent class SHIP, and also add your own fire_missile method within the
+    subclass of fighter
+      - Signified by < syntax i.e. class Fighter < Ship
+  4) Polymorphism
+    Principle allows for the implementation details to be changed to fit the
+    specific class without changing any identifiers, interface or name that is
+    needed to access them.
+      - Ex: Fighter not only fires missiles but also travels faster than normal
+      ship, so may increase ACCELERATION to 2 without having to change the name
+      of the constant ACCELERATION
+        class Fighter < Ship
+          ACCELERATION = 2
+          def initialize
+            super()  ------- If you change the initialize method, you have to
+            @missiles = 10   call super on it so that it will call the same
+          end                properties as the parent class.
+    5) Single-responsibility principle
+      States that each module, class or function in a program should have
+      responsibility over a single part of that programs functionality. All of
+      that module, class or functions services should align with that
+      responsibility only.
+        - A class or module should have only a single reason to be changed.
+          Ex: method to compile and print a report. If it needed to be changed
+          because the report itself could change, or the format of the report
+          could change. These are two separate issues and thus should be
+          treated in separate classes or modules. This has implications in
+          robustness of code, so that if something needs editing, there is a
+          lower likelihood of messing something unrelated up.
