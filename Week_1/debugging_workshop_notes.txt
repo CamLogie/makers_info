@@ -1,0 +1,32 @@
+Debugging Workshop
+
+What is a bug?
+
+  A bug is an issue in the program, an error in the code, or when the code
+  doesn't run as expected.
+
+Mantra @ Makers:
+  "Tighten the loop and get visibility"
+
+  TIGHTEN THE LOOP: find the exact line the bug is coming from
+  GET VISIBILITY: print to the terminal, check variables etc.
+
+How to debug:
+
+1) Run a specific line within rspec
+
+  rspec ./spec/appointment_spec.rb:9 -- gives file and line number
+
+2) Look at the spec file to try to understand what the test is asking from the
+program
+
+  Use the error message received in step one to figure out where the problem
+  might lie
+
+3) Open the actual program file
+
+  Get visibility on the specific method or variables by "p"ing them
+
+4) Run spec file to see the output
+
+5) Repeat
