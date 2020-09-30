@@ -4,4 +4,10 @@ Tuesday 29/9 - Morning Session
 
 Goal: Describe some basic OO principles like encapsulation, SRP
 Achieved when: I am able to explain encapsulation, SRP, etc. confidently to my peers
-Correct when: They can verify what I've said was correct. 
+Correct when: They can verify what I've said was correct.
+
+Wednesday 30/9 -
+
+Goal: Follow an effective debugging process//write examples for the 5 OO principles I worked on yesterday
+How to Achieve: Doing debugging workshop//debug fizzbuzz//whilst pairing, write up examples for OO on notes from yesterday
+Correct when: Check fizzbuzz debug with coaches//send OO notes w/ examples to coaches.
