@@ -1,0 +1,39 @@
+Test Driven Development:
+
+What is it?
+  - Creating tests to make sure something is functioning as you wish it would
+  - Ensure your code is concise
+  - Ensure your code does what it should
+  - Behavior is the methods on the object at hand
+  - Helps you think through the problem and test things you might not initially
+    think about
+
+How to write tests: RGR
+  - R = Red, we want it to fail, tests should force you to make new behavior
+  - G = Green, make it pass by writing the code
+  - R = Refactor, improve the quality of the code w/o changing its behavior
+
+What is RSPEC?
+  - A gem that helps us check our code
+  - Specifically tests Ruby code - almost like its own language
+  - A bit like the mirrored version of Ruby
+  - Has different conditionals and different rules
+  - A DSL - specific to domain/environment of testing
+
+Writing Tests Workshop:
+
+  LO - Define unit testing as the process of testing the smallest possible
+       'unit' of a program
+     - Understand each of the 3 As of unit testing
+     - Write some simple unit tests
+
+  Bank Account
+
+  input [method] output
+
+  10 => [deposit] => 10
+
+  pure function is one that outputs a value
+  impure function is one that updates an instance
+
+  
