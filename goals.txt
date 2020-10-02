@@ -17,3 +17,9 @@ Thursday 1/10 -
 Goal: Write examples for the 5 OO principles I worked on yesterday
 How to Achieve: Review the notes on OO principles, do 20 mins of new research on those principles
 Correct When: Send my OO principle notes to coaches to review, specifically review examples
+
+Friday 2/10 -
+
+Goal: Practice only code the methods once I have written a test to test that
+How to Achieve: do Encapsulation and cohesion practical
+Correct when: Send completed practical to coach to check I've done it right.
