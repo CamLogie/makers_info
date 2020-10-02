@@ -60,3 +60,137 @@ Object Oriented Programming Principles (5)
           treated in separate classes or modules. This has implications in
           robustness of code, so that if something needs editing, there is a
           lower likelihood of messing something unrelated up.
+
+
+Examples of each principle:
+
+1) Data abstraction - we want our data to describe our real life equivalent
+  ex: Dog
+
+  class BrownDog(fur_color)
+    def initialize
+      @fur_color = fur_color
+      @legs = 4
+      @ears = 2
+      @badbreath = true
+      @age = 0
+      @tail = 1
+    end
+    def leg_amputation(legs_amputated)
+      @legs -= legs_amputated
+    end
+    def brush_teeth
+      @badbreath = false
+    end
+  end
+
+2) Encapsulation - Hiding the details of particular objects within a class,
+                   while making
+  ex: Cat
+
+  class Cat(hair_length, size, species)
+    def initialize
+      @hair_length = hair_length
+      @size = size
+      @species = species
+    end
+
+    def hair_length
+      @hair_length
+    end                  *Using encapsulation, the data of hair_length, size,
+                          and species are only available within the class when
+    def size              the methods are called upon by that object specifically
+      @size
+    end
+
+    def species
+      @species
+    end
+  end
+
+3) Inheritance - Using a prior class to give characteristics of a subclass
+
+  ex:
+
+  class Cat(hair_length, size, species)
+
+  attr_accessor :hair_length, :size, :species
+
+    def initialize
+      @hair_length = hair_length
+      @size = size
+      @species = species
+    end
+
+    def hair_length
+      @hair_length
+    end
+
+    def size
+      @size
+    end
+
+    def species
+      @species
+    end
+
+    def climb_trees
+      puts 'I climb trees for fun'
+    end
+  end
+
+  class JungleCat < Cat
+  end
+
+  tiger = JungleCat.new('short', 'large', 'tiger')
+  tiger.species == 'tiger'
+
+4) Polymorphism - Being able to change a certain class w/o changing identifiers
+
+ex:
+  class JungleCat < Cat
+
+    def climb_trees     ---- I can change the inside of this method, so I can
+      puts 'I climb trees to catch prey'  make it more specific to JungleCats
+    end
+  end
+
+  tabby = Cat.new('short', 'small', 'brown tabby')
+  tiger = JungleCat.new('short', 'large', 'tiger')
+
+  tabby.climb_trees == 'I climb trees for fun'
+  tiger.climb_trees == 'I climb trees to catch prey'
+
+5) Single Responsiblity Principle
+
+  class Cat(hair_length, size, species)
+
+  attr_accessor :hair_length, :size, :species
+
+    def initialize
+      @hair_length = hair_length
+      @size = size
+      @species = species
+    end
+
+    def store_cat         Currently this program both stores a cat and validates
+      ...                 whether or not the cat is true, which is in violation
+    end                   of the SRP.
+
+    def validate_cat
+      ...
+    end
+  end
+
+
+  *Instead we should make cat_validator its own class
+
+  class CatValidator(parameters)
+    def initialize
+      @parameters = parameters
+    end
+
+    def validate
+    ... #true or false
+    end
+  end

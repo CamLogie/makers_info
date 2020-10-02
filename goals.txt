@@ -11,3 +11,9 @@ Wednesday 30/9 -
 Goal: Follow an effective debugging process//write examples for the 5 OO principles I worked on yesterday
 How to Achieve: Doing debugging workshop//debug fizzbuzz//whilst pairing, write up examples for OO on notes from yesterday
 Correct when: Check fizzbuzz debug with coaches//send OO notes w/ examples to coaches.
+
+Thursday 1/10 -
+
+Goal: Write examples for the 5 OO principles I worked on yesterday
+How to Achieve: Review the notes on OO principles, do 20 mins of new research on those principles
+Correct When: Send my OO principle notes to coaches to review, specifically review examples
