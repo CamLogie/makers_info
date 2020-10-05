@@ -23,3 +23,9 @@ Friday 2/10 -
 Goal: Practice only code the methods once I have written a test to test that
 How to Achieve: do Encapsulation and cohesion practical
 Correct when: Send completed practical to coach to check I've done it right.
+
+Monday 4/10 -
+
+Goal: Watch tutorials on RSPEC to gain knowledge of what it is and how to use it
+How to Achieve: Watch Youtube videos on RSPEC
+Correct when: I can accurately use a stub on RSPEC for my airport project
