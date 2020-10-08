@@ -24,8 +24,26 @@ Goal: Practice only code the methods once I have written a test to test that
 How to Achieve: do Encapsulation and cohesion practical
 Correct when: Send completed practical to coach to check I've done it right.
 
-Monday 4/10 -
+Monday 5/10 -
 
 Goal: Watch tutorials on RSPEC to gain knowledge of what it is and how to use it
 How to Achieve: Watch Youtube videos on RSPEC
 Correct when: I can accurately use a stub on RSPEC for my airport project
+
+Tuesday 6/10 -
+
+Goal: Unit test classes in isolation using mocking
+How to Achieve: Do Testing OO relationships using mocking
+Correct when: Can get practical checked by coaches
+
+Wednesday 7/10 - 
+
+Goal: Find 3 things to look for when refactoring
+How to achieve: Work refactoring and refactoring with oo1
+Complete when: Able to get coaches to review
+
+Thursday 8/10 - 
+
+Goal: Work on refactoring process, tryign to split into multiple classes while maintaining test coverage
+How to achieve: Finish refactoring and refactoring with oo1, working on airport challenge
+Complete when: Get coaches to review refactoring and work airport

@@ -1,0 +1,13 @@
+What is a diagram?
+
+- Schema/ outline of how it will look
+- General plan
+- A drawing of a concept
+
+Why do we diagram?
+
+- Helps code look more inviting, put together the story of how we solve the problem
+- A diagram can help us storyboard
+- Helps us think of inputs and outputs
+
+Domain = environment
