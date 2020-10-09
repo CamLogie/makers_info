@@ -47,3 +47,9 @@ Thursday 8/10 -
 Goal: Work on refactoring process, tryign to split into multiple classes while maintaining test coverage
 How to achieve: Finish refactoring and refactoring with oo1, working on airport challenge
 Complete when: Get coaches to review refactoring and work airport
+
+Friday 9/10 -
+
+Goal: Work on trying to split into multiple classes while maintaining test coverage
+How to achieve: restart airport challenge
+Complete when: able to integrate the weather into the code and effectively use stubs
