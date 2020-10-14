@@ -53,3 +53,19 @@ Friday 9/10 -
 Goal: Work on trying to split into multiple classes while maintaining test coverage
 How to achieve: restart airport challenge
 Complete when: able to integrate the weather into the code and effectively use stubs
+
+Monday 12/10 -
+
+Goal: Gain an introduction into web applications and start to familiarize yourself with the concepts
+How to achieve: Attend workshop and start the week challenge
+Complete when: This is just an intro so tough to say
+
+Tuesday 13/10 -
+
+Goal: Build on my knowledge from yesterday, specifically focusing on servers and clients
+How to achieve: Work through the servers and the clients practicals
+Complete when: Get a coach to check my work
+
+Wednesday 14/10 - Continue to build on knowledge of servers and clients and begin creating a debugging process for webapps
+How to Achieve: Work through the debugging workshop
+Complete when: I get a coach to check through my work
